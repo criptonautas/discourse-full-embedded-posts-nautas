@@ -1,7 +1,7 @@
 # Full embedded posts — agent guide
 
 Rules for anyone changing this repo, people and AI agents alike. Org-wide
-conventions (README, licenses, commits) are in the [contributing guide](https://github.com/somos-criptonautas/.github/blob/main/CONTRIBUTING.md).
+conventions (README, licenses, commits) are in the [contributing guide](https://github.com/criptonautas/.github/blob/main/CONTRIBUTING.md).
 
 ## Checks
 
