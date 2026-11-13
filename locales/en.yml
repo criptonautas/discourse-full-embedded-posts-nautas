@@ -1,5 +1,6 @@
 en:
   theme_metadata:
+    description: "Shows embedded blog posts in full instead of an excerpt, with optional folding for long articles."
     settings:
       collapse_tags: "Fold the first post of topics with any of these tags to a preview, with a button to unfold it. Leave empty to never fold."
       collapsed_height: "Height of the folded preview, in pixels."

@@ -1,5 +1,6 @@
 es:
   theme_metadata:
+    description: "Muestra completos los posts incrustados del blog en lugar de un extracto, con plegado opcional para artículos largos."
     settings:
       collapse_tags: "Pliega el primer post de los temas con alguna de estas etiquetas a una vista previa, con un botón para desplegarlo. Vacío: nunca se pliega."
       collapsed_height: "Altura de la vista previa plegada, en píxeles."
