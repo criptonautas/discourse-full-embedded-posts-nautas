@@ -31,7 +31,8 @@ lectores de pantalla lo leen entero.
 El truncado ocurre en la importación: el extracto se convierte en el post y el artículo completo
 se guarda en `topic_embeds.embed_content_cache`. El componente lo obtiene por el mismo endpoint
 `/posts/:id/expand-embed` que usa el botón, con caché en el servidor, así que tu blog no se
-vuelve a rastrear. Si esa petición falla, el botón se deja en su lugar.
+vuelve a rastrear. Si esa petición falla, el botón se deja en su lugar sin mostrar error;
+al hacer clic se reintenta y el error se informa como siempre.
 
 Desactivar el ajuste del sitio `embed truncate` solo afecta a las importaciones *futuras*; esos
 temas no son expandibles y el componente no hace nada con ellos. Los temas ya importados
